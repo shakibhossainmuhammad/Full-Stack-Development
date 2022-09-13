@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>html form</title>
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <label for="fullname">FullName Name:</label>
+            <input type="text" name="fullname" id="fullname" required>
+        </div> <br />
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </div><br />
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+        </div><br />
+
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="date" id="dob">
+        </div><br />
+
+        <div>
+            <label for="photo">Choose your images:</label>
+            <input type="file" name="photo" id="photo">
+        </div><br />
+
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="gender" value="male"> Male
+            <input type="radio" name="gender" id="gender" value="female"> Female
+        </div><br />
+
+        <div>
+            <label for="religion">Religion:</label>
+            <input checked type="checkbox" name="c1" id="muslim" value="islam"> Islam
+            <input type="checkbox" name="c1" id="hindu" value="hindu"> Hindu
+        </div><br />
+
+        <div>
+            <label for="department">Department:</label>
+            <select name="" id="">
+                <option name="department" value="CSE">CSE</option>
+                <option name="department" value="EEE" selected>EEE</option>
+                <option name="department" value="LLB">LLB</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="messages">Messages:</label><br />
+            <textarea name="" id="" cols="30" rows="20"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </div>
+    </form>
+
+</body>
+
+</html>

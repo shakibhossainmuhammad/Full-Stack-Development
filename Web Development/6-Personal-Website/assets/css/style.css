@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-banner {
+  background-image: url('../images/header-bg.png');
+  background-repeat: no-repeat;
+}
+
+section {
+  /* height: 800px; */
+}
+h3 {
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 50px;
+  color: #f45858;
+}
+
+p {
+  color: dimgray;
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+  margin-top: 250px;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+
+.half-width img {
+  width: 70%;
+  margin-left: -50px;
+}
+
+.items {
+  margin-left: 157px;
+  margin-top: 420px;
+}
+
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, lightSalmon, tomato);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+
+.dream-area {
+  background-image: url('../images/biography-bg.png');
+  background-repeat: no-repeat;
+}
+
+.middle-img img {
+  margin-top: -125px;
+}

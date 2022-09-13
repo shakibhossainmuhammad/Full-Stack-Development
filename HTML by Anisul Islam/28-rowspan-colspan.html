@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>rowspan, colspan</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 300px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th colspan="2">Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Shakib</td>
+                <td>01305200518</td>
+                <td rowspan="3">01305200518</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Joy</td>
+                <td>01305200518</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Rakib</td>
+                <td>01305200518</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

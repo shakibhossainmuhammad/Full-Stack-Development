@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesudo Class</title>
+</head>
+<style>
+    h1::before {
+        content: "Hello ";
+        color: burlywood;
+        font-size: 12px;
+        background-color: cornflowerblue;
+    }
+
+    .speical-effect::after {
+        content: "Bye";
+        font-size: 15px;
+        background-color: red;
+    }
+
+    body {
+        counter-reset: section;
+    }
+
+    p::before {
+        content: "❤️ ";
+    }
+</style>
+
+<body>
+
+    <h1>Pseudo Class</h1>
+    <h1 class="speical-effect">Normal Class</h1>
+    <h1 class="speical-effect">Vodro Class</h1>
+
+    <h1>Hello World, Barak Obama</h1>
+    <input name="email" type="text">
+    <br><br>
+    <input type="password" type="text">
+    <br>
+    <a href="https://www.facebook.com/shakibhossainmuhammad/">Facebook</a>
+    <a href="https://twitter.com/codemshshakib">Twitter</a>
+    <ul>
+        <p>Apa</p>
+        <p>Dapa</p>
+        <p>Mapa</p>
+        <p>Sapa</p>
+        <p>Japa</p>
+        <p>Kapa</p>
+        <p>Fapa</p>
+        <p>Napa</p>
+
+    </ul>
+</body>
+
+</html>
