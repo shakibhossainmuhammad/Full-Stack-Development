@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class and Pseudo element</title>
+    <style>
+        /* a.my-link:hover {
+            color: green;
+        } */
+        input {
+            padding: 10px;
+            font-size: 1rem;
+            width: 150px;
+        }
+
+        input:focus {
+            background-color: green;
+        }
+
+        table,
+        tr,
+        td {
+            border: 1px solid black
+        }
+
+        tr:nth-child(odd) {
+            background-color: brown;
+        }
+
+        p:hover {
+            color: brown;
+        }
+
+        P::first-letter {
+            color: coral;
+            font-size: 3.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <a class="my-link" href="#">Tutorial</a>
+    <a href="#">Home</a> -->
+    <input type="text" name="" id="" placeholder="Enter your name">
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Age</td>
+        </tr>
+        <tr>
+            <td>Shakib</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Jaya</td>
+            <td>20</td>
+        </tr>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In perferendis repellat incidunt, ea sit nisi mollitia
+        ad consectetur velit quos ducimus facilis necessitatibus quas recusandae aut exercitationem esse! Iste, vero!
+    </p>
+</body>
+
+</html>

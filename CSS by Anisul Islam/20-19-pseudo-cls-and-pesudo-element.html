@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class and Pseudo element (part-2)</title>
+    <style>
+        /* .demo:hover {
+            background-color: #000;
+            color: #fff;
+        } */
+
+        /* p:first-child {
+            background-color: #000;
+            color: #fff;
+        } */
+
+        /* p:last-child {
+            background-color: #000;
+            color: #fff;
+        } */
+        /* .demo p:nth-child(even) {
+            background-color: #000;
+            color: #fff;
+        } */
+
+        /* li:last-of-type {
+            background-color: #000;
+            color: aqua;
+        } */
+
+        /* .first-letter-style {
+            color: brown;
+            font-size: 3rem;
+        } */
+        /* p::first-line {
+            color: brown;
+            font-size: 3rem;
+        } */
+
+        /* ::selection {
+            color: brown;
+            background: #000;
+        } */
+        .demo::before,
+        .demo::after {
+            content: '';
+            width: 50%;
+            height: 20px;
+            background: #000;
+            display: inline-block;
+        }
+
+        input::placeholder {
+            color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="demo">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, consectetur?
+        </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, consectetur?
+        </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, consectetur?
+        </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, consectetur?
+        </p>
+    </div> -->
+    <!-- <ul>
+        <li>Home1</li>
+        <li>Home2</li>
+        <li>Home3</li>
+        <li>Home4</li>
+        <li>Home5</li>
+    </ul> -->
+    <div class="demo">
+        <p> <span class="first-letter-style">L</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, in!
+        </p>
+        <p>Norem ipsum dolor sit amet consectetur adipisicing elit. Saepe, in!</p>
+        <p>0orem ipsum dolor sit amet consectetur adipisicing elit. Saepe, in!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, fuga iure? Sunt, dolores? Debitis vero
+            corrupti
+            maiores voluptatibus commodi iste. Nulla culpa, maxime sit debitis dolorem numquam expedita ipsa mollitia
+            tempore laborum! Beatae iusto sunt saepe voluptatibus unde nemo maxime ipsam commodi deleniti, at nesciunt
+            ut
+            excepturi temporibus quam blanditiis, obcaecati, soluta fugit explicabo sint! Fugiat, perferendis obcaecati
+            reprehenderit incidunt expedita ab fuga consequuntur dolorem sed provident ad, aut dolorum velit iusto
+            numquam
+            natus. Neque animi, sunt amet atque, doloremque dolorum delectus earum modi vitae omnis eligendi ab ut illo
+            adipisci doloribus aperiam odio. Eos inventore numquam fugit fuga natus.</p>
+    </div>
+    <input type="text" name="" id="" placeholder="Hello everyone">
+</body>
+
+</html>
