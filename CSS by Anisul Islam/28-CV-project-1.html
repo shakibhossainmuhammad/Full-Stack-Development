@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #eee;
+            font-family: 'Roboto Mono', monospace;
+        }
+
+        .container {
+            max-width: 1000px;
+            background-color: #e4f9f5;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {}
+
+        .profile-images {
+            width: 100px;
+            height: 120px;
+            border: 3px solid #fff;
+            border-radius: 50%;
+            float: left;
+        }
+
+        .header-bio {
+            float: left;
+            padding: 30px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #11999e;
+        }
+
+        .header-contact {
+            float: right;
+            padding: 30px;
+        }
+
+        .header-contact a {
+            text-decoration: none;
+            color: teal;
+            font-weight: bold;
+        }
+
+        .header-contact a:hover {
+            text-decoration: underline;
+            color: tomato;
+        }
+
+        .div-clear {
+            clear: both;
+        }
+
+        hr {
+            border: solid black 3px;
+            width: 100%;
+            margin: 20px auto;
+            border-bottom: none;
+        }
+
+        /* personal section start */
+        #personal-section {}
+
+        .content {
+            margin-bottom: 30px;
+        }
+
+        .left-div {
+            width: 30%;
+            float: left;
+        }
+
+        .right-div {
+            width: 70%;
+            float: left;
+        }
+
+        .common-hr {
+            border: solid black 1px;
+            border-bottom: none;
+            width: 100%;
+            margin: 20px auto;
+        }
+
+        /* Footer start */
+        .bottom-container {
+            background-color: black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .bottom-container a {
+            color: #fff;
+            text-decoration: none;
+            margin: 20px;
+        }
+
+        .bottom-container p {
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- container start -->
+    <div class="container">
+        <!-- header start -->
+        <header>
+            <img class="profile-images" src="images-file/shakib.png" alt="shakib">
+            <div class="header-bio">
+                <h1>Md. Shakib Hossain</h1>
+                <h3>Front End Web Developer</h3>
+            </div>
+            <div class="header-contact">
+                <p><a href="mailto:shakibhossainmuhammad@gmail.com">Email : shakibhossainmuhammad@gmail.com</a></p>
+                <p><a href="https://github.com/shakibhossainmuhammad">website : sk.com</a></p>
+                <p><a href="tel:+8801305200518">Phone : +8801305200518</a></p>
+            </div>
+        </header>
+        <!-- header end-->
+        <!-- clearing div -->
+        <div class="div-clear"></div>
+        <hr>
+
+        <!-- main start -->
+        <main>
+            <!-- personal section start -->
+            <section id="personal-section">
+                <div class="content">
+                    <div class="left-div">
+                        <h3>Personal Information</h3>
+                    </div>
+                    <div class="right-div">
+                        <p>Address: Jilpar Road, Manda, Dhaka - 1214</p>
+                        <p>Sex: Male</p>
+                        <p>Date of birt: 08/03/2004</p>
+                        <p>Nationality: Bangladeshi</p>
+                    </div>
+                </div>
+            </section>
+            <!-- personal section end -->
+            <!-- clearing div -->
+            <div class="div-clear"></div>
+            <hr class="common-hr">
+
+            <!-- work  section start -->
+            <section id="personal-section">
+                <div class="content">
+                    <div class="left-div">
+                        <h3>Work Experience</h3>
+                    </div>
+                    <div class="right-div">
+                        <h3>iSense Technolab</h3>
+                        <h5>Front End Web Developer</h5>
+                        <h6>2020-2022</h6>
+                        <br>
+                        <ul>
+                            <li>Developed UI components using React, TypeScript, HTML, CSS Prime NG and NG Bootsrap</li>
+                            <li>Created custom, slf-contained, reusable, and testable, React modules, components and
+                                services through React CLI to implement key functionlities</li>
+                            <li>Used rxJs library to manage concurrency when fetching data throught http calls...</li>
+                            <li>Experience on working with CSS background , list and links, Positioning, Float, Box
+                                model, texts, bordersm margin, padding and table</li>
+                            <li>Excellent work Experience in agile process JIRA and daily standup to syce up with...
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- work section end -->
+            <!-- clearing div -->
+            <div class="div-clear"></div>
+            <hr class="common-hr">
+
+            <!-- key skill  section start -->
+            <section id="personal-section">
+                <div class="content">
+                    <div class="left-div">
+                        <h3>Key Skill</h3>
+                    </div>
+                    <div class="right-div">
+                        <h3>Communication Skills</h3>
+                        <ul>
+                            <li>Excellent Managerial skill gained by aranging programming contest at university</li>
+                            <li>Outatinading communication skills achived through my cepericence ad lecturer at three
+                                different institution</li>
+                        </ul>
+                        <br>
+                        <h3>Organisation/managerial skills</h3>
+                        <ul>
+                            <li>Leadership(initiated group study sessions and assisting the university in organizing
+                                some prostigious programmimg contests)</li>
+                            <li>Team Mangement(Was responsible for managing my team during several projects at
+                                university)</li>
+                        </ul>
+                        <br>
+                        <h3>Job-related skills</h3>
+                        <ul>
+                            <li>Good command of Android development, managing, and maintenance</li>
+                            <li>Ecellent command over C, C++, Java, Python, HTMl, CSS, JavaScript etc</li>
+                            <li>As a lecturer of Computer science have sound knowledge of the practical implementtation
+                                of theory</li>
+                            <li>Goood knowledge on Coputer Networking</li>
+                            <li>Have a sound knowledge on Fraphics designing</li>
+                            <li>Excellent knowledge on video editing digital awareness, content research skil as a video
+                                creator o YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- key skill section end -->
+            <!-- clearing div -->
+            <div class="div-clear"></div>
+            <hr class="common-hr">
+        </main>
+        <!-- main end -->
+
+        <!-- footer start -->
+        <footer class="bottom-container">
+            <a href="#">Facebook</a>
+            <a href="#">Website</a>
+            <a href="#">GitHub</a>
+            <p>Copyright &copy; Shakib 2022</p>
+        </footer>
+        <!-- footer end -->
+
+    </div>
+    <!-- container end -->
+</body>
+
+</html>
