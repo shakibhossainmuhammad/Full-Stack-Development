@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive web design using Grid View and Media queries</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    .header {
+        background-color: coral;
+        color: white;
+        padding: 1% 5%;
+        text-align: center;
+    }
+
+    .nav-menu {
+        padding: 1% 5%;
+        background-color: #39a4ac;
+    }
+
+    .nav-menu a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+        padding: 10px;
+        display: block;
+    }
+
+    .main {
+        padding: 1% 5%;
+        background-color: turquoise;
+    }
+
+    .aside {
+        padding: 1% 5%;
+        background-color: #39a4ac;
+        text-align: center;
+    }
+
+    .footer {
+        background-color: black;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+    [class*="col-"] {
+        float: left;
+        padding: 10px;
+    }
+
+    .row::after {
+        content: '';
+        clear: both;
+        display: table;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <h1>SK</h1>
+    </div>
+
+    <div class="row">
+        <div class="nav-menu col-2">
+            <a href="#">Home</a>
+            <a href="#">Tutorial</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div class="main col-7">
+            <h1>I am a web designer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptate enim numquam itaque nemo? Id
+                aliquam amet qui inventore. Fugiat.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptate enim numquam itaque nemo? Id
+                aliquam amet qui inventore. Fugiat.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptate enim numquam itaque nemo? Id
+                aliquam amet qui inventore. Fugiat.</p>
+        </div>
+        <div class="aside col-3">
+            <h2>What I love?</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, qui?</p>
+            <h2>What I Do?</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, qui?</p>
+            <h2>What I don't love</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, qui?</p>
+            <h2>What I don't Do?</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, qui?</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; Sk 2022. Developed By Shakib
+    </div>
+
+</body>
+
+</html>

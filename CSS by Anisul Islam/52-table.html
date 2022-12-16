@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table using CSS</title>
+</head>
+<style>
+    table {
+        border: 2px solid black;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th,
+    td {
+        border: 2px solid black;
+        padding: 5px;
+        text-align: center;
+    }
+
+    th {
+        background-color: darkgreen;
+        color: white;
+        height: 30px;
+        vertical-align: middle;
+    }
+
+    tr:nth-child(even) {
+        background-color: gray;
+    }
+
+    tr:nth-child(odd) {
+        background-color: gold;
+    }
+
+    tr:hover {
+        background-color: tomato;
+    }
+</style>
+
+<body>
+    <table>
+        <caption>Student Details</caption>
+
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>GPA</th>
+            <th>Phone</th>
+            <th>Bio</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Rabeya</td>
+            <td>3.5</td>
+            <td>01305200518</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo beatae id architecto obcaecati ut
+                modi eligendi repellat exercitationem necessitatibus laborum!</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Ruma</td>
+            <td>3.60</td>
+            <td>01305200518</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo beatae id architecto obcaecati ut
+                modi eligendi repellat exercitationem necessitatibus laborum!</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Shakib</td>
+            <td>3.80</td>
+            <td>01305200518</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo beatae id architecto obcaecati ut
+                modi eligendi repellat exercitationem necessitatibus laborum!</td>
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>Joy</td>
+            <td>3.00</td>
+            <td>01305200518</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo beatae id architecto obcaecati ut
+                modi eligendi repellat exercitationem necessitatibus laborum!</td>
+        </tr>
+        <tr>
+            <td>105</td>
+            <td>Naim</td>
+            <td>3.05</td>
+            <td>01305200518</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo beatae id architecto obcaecati ut
+                modi eligendi repellat exercitationem necessitatibus laborum!</td>
+        </tr>
+    </table>
+</body>
+
+</html>
