@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>two dimensional array</title>
+</head>
+
+<body>
+    <h1>two dimensional array</h1>
+
+    <script>
+        function highestRunScorer() {
+            let highestScorer = playersInfo[0][0];
+            let highestScore = playersInfo[0][1];
+
+            for (let x = 1; x < playersInfo.length; x++) {
+                if (highestScore < playersInfo[x][1]) {
+                    highestScore = playersInfo[x][1];
+                    highestScorer = playersInfo[x][0];
+                }
+            }
+            return highestScorer;
+
+        }
+        let playersInfo = [
+            ["Ashraful", 95],
+            ["Mizan", 125],
+            ["Rakib", 45],
+            ["shakib", 99],
+        ];
+        let name = highestRunScorer(playersInfo);
+        console.log(name);
+    </script>
+</body>
+
+</html>
