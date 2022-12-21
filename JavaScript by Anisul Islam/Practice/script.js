@@ -1,39 +1,15 @@
-// if, else if, switch
-
-// let num1 = parseInt(prompt('Enter first Number : '));
-// let num2 = parseInt(prompt('Enter second Number : '));
-
-// if (num1 > num2) {
-//   console.log('Large Number is : ' + num1);
-//   console.log('Large Number is : ' + num1);
-// }
-// if (num1 < num2) {
-//   console.log('Large Number is : ' + num2);
-//   console.log('Large Number is : ' + num2);
+let arrayNames = new Array('Rahim', 'Karim', 'Rafiq', 'Jabbar');
+// for (let i = 0; i < arrayName.length; i++) {
+//   console.log('Name: ' + arrayName[i]);
 // }
 
-// if (num1 == num2) {
-//   console.log('Equal Numbers');
-// }
+// arrayName.unshift('Shafiq');
+// console.log(arrayName.splice(3));
+// console.log(arrayName);
 
-// if (num1 > num2) {
-//   console.log('Large Number is : ' + num1);
-// } else if (num1 < num2) {
-//   console.log('large Number is : ' + num2);
-// } else {
-//   console.log('Equal Numbers');
-// }
+// let newArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+// let spliceArr = newArr.splice(3);
+// console.log(spliceArr);
 
-// convert any uppercase input into lower cause we set only lowercase letter in condition
-
-letter = letter.toLowerCase();
-
-if (
-  letter == 'a' ||
-  letter == 'e' ||
-  letter == 'i' ||
-  letter == 'o' ||
-  letter == 'u'
-) {
-  console.log('Vowel');
-}
+let arrayNames  === newArr;
+console.log(newArr);
