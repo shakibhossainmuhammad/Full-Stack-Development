@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // prompt & alert function
+      let a = prompt('Hey whats you age?');
+      a = Number.parseInt(a);
+      if (a < 0) {
+        alert('This is a valid age');
+      } else if (a < 9) {
+        alert('You are akid and you cnnot even think of driving');
+      } else if (a < 18 && a >= 9) {
+        alert('You are akid and you cnnot even think of driving after 18');
+      } else {
+        alert('You can now drive as you are above 18');
+      }
+      console.log('Done');
+      //   HomeWork - Explore switch statement and weite a basic program in the Comment
+
+      //   ternary Operator
+
+      console.log('You can', a < 18 ? 'Not drive' : 'drive');
+    </script>
+  </body>
+</html>
